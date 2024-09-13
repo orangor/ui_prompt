@@ -1,0 +1,269 @@
+.color_maroon{ color:#800000}
+.color_darkred{ color:#8B0000 }
+.color_brown{ color:#A52A2A}
+.color_firebrick{ color:#B22222}
+.color_crimson{ color:#DC143C }
+.color_red{ color:#FF0000}
+.color_mediumvioletred{ color:#C71585}
+.color_palevioletred{ color:#D87093}
+.color_deeppink{ color:#FF1493}
+.color_fuchsia{ color:#FF00FF}
+.color_magenta{ color:#FF00FF}
+.color_hotpink{ color:#FF69B4}
+.color_pink{ color:#FFC0CB }
+.color_lightpink{ color:#FFB6C1}
+.color_mistyrose{ color:#FFE4E1}
+.color_lavenderblush{ color:#FFF0F5}
+.color_indigo{ color:#4B0082 }
+.color_purple{ color:#800080}
+.color_darkmagenta{ color:#8B008B}
+.color_darkorchid{ color:#9932CC}
+.color_blueviolet{ color:#8A2BE2}
+.color_darkviolet{ color:#9400D3}
+.color_slateblue{ color:#6A5ACD}
+.color_mediumpurple{ color:#9370DB }
+.color_mediumslateblue{ color:#7B68EE }
+.color_mediumorchid{ color:#BA55D3}
+.color_violet{ color:#EE82EE}
+.color_plum{ color:#DDA0DD }
+.color_thistle{ color:#D8BFD8 }
+.color_lavender{ color:#E6E6FA}
+.color_saddlebrown{ color:#8B4513}
+.color_sienna{ color:#A0522D}
+.color_chocolate{ color:#D2691E}
+.color_indianred{ color:#CD5C5C}
+.color_rosybrown{ color:#BC8F8F }
+.color_lightcorol{ color:#F08080 }
+.color_salmon{ color:#FA8072 }
+.color_lightsalmon{ color:#FFA07A}
+.color_orangered{ color:#FF4500 }
+.color_coral{ color:#FF6347}
+.color_coloral{ color:#FF7F50 }
+.color_darkorange{ color:#FF8C00}
+.color_sandybrown{ color:#F4A460}
+.color_peru{ color:#CD853F }
+.color_tan{ color:#D2B48C }
+.color_burlywood{ color:#DEB887}
+.color_wheat{ color:#F5DEB3}
+.color_moccasin{ color:#FFE4B5}
+.color_navajowhite{ color:#FFDEAD}
+.color_peachpuff{ color:#FFDAB9}
+.color_bisque{ color:#FFE4C4}
+.color_antuquewhite{ color:#FAEBD7}
+.color_papayawhip{ color:#FFEFD5}
+.color_colornsilk{ color:#FFF8DC}
+.color_oldlace{ color:#FDF5E6}
+.color_linen{  color:#FAF0E6 }
+.color_seashell{ color:#FFF5EE}
+.color_snow{ color:#FFFAFA}
+.color_floralwhite{ color:#FFFAF0 }
+.color_ivory{ color:#FFFFF0}
+.color_mintcream{ color:#F5FFFA}
+.color_darkgoldenrod{ color:#B8860B}
+.color_goldenrod{ color:#DAA520}
+.color_gold{ color:#FFD700}
+.color_yellow{ color:#FFFF00 }
+.color_darkkhaki{ color:#BDB76B }
+.color_khaki{ color:#F0E68C}
+.color_palegoldenrod{ color:#EEE8AA}
+.color_beige{ color:#F5F5DC }
+.color_lemonchiffon{ color:#FFFACD }
+.color_lightgoldenrodyellow{ color:#FAFAD2 }
+.color_lightyellow{ color:#FFFFE0}
+.color_darkslategray{ color:#2F4F4F}
+.color_darkolivegreen{ color:#556B2F}
+.color_olive{ color:#808000}
+.color_darkgreen{ color:#006400}
+.color_forestgreen{ color:#228B22}
+.color_seagreen{ color:#2E8B57}
+.color_green{ color:#008080 }
+.color_teal{ color:#008080 }
+.color_lightseagreen{ color:#20B2AA}
+.color_madiumaquamarine{ color:#66CDAA }
+.color_mediumseagreen{ color:#3CB371}
+.color_darkseagreen{ color:#8FBC8F}
+.color_yellowgreen{ color:#9ACD32 }
+.color_limegreen{ color:#32CD32}
+.color_lime{ color:#00FF00 }
+.color_chartreuse{ color:#7FFF00}
+.color_lawngreen{ color:#7CFC00}
+.color_greenyellow{ color:#ADFF2F}
+.color_mediumspringgreen{ color:#00FA9A}
+.color_springgreen{ color:#00FF7F}
+.color_lightgreen{ color:#90EE90}
+.color_palegreen{ color:#98F898 }
+.color_aquamarine{ color:#7FFFD4 }
+.color_honeydew{ color:#F0FFF0}
+.color_midnightblue{ color:#191970}
+.color_navy{ color:#000080}
+.color_darkblue{ color:#00008B}
+.color_darkslateblue{ color:#483D8B}
+.color_mediumblue{ color:#0000CD}
+.color_royalblue{ color:#4169E1}
+.color_dodgerblue{ color:#1E90FF}
+.color_colornflowerblue{ color:#6495ED}
+.color_deepskyblue{ color:#00BFFF}
+.color_lightskyblue{ color:#87CEFA}
+.color_lightsteelblue{ color:#B0C4DE}
+.color_lightblue{ color:#ADD8E6}
+.color_steelblue{ color:#4682B4}
+.color_darkcyan{ color:#008B8B}
+.color_cadetblue{ color:#5F9EA0}
+.color_darkturquoise{ color:#00CED1}
+.color_mediumturquoise{ color:#48D1CC}
+.color_turquoise{ color:#40E0D0}
+.color_skyblue{ color:#87CECB}
+.color_powderblue{ color:#B0E0E6}
+.color_paleturquoise{ color:#AFEEEE}
+.color_lightcyan{ color:#E0FFFF }
+.color_azure{ color:#F0FFFF}
+.color_aliceblue{ color:#F0F8FF}
+.color_aqua{ color:#00FFFF}
+.color_cyan{ color:#00FFFF}
+.color_black{ color:#000000}
+.color_dimgray{ color:#696969}
+.color_gray{ color:#808080}
+.color_slategray{ color:#708090 }
+.color_lightslategray{ color:#778899 }
+.color_darkgray{ color:#A9A9A9 }
+.color_silver{ color:#C0C0C0 }
+.color_lightgray{ color:#D3D3D3}
+.color_gainsboro{ color:#DCDCDC}
+.color_whitesmoke{ color:#F5F5F5}
+.color_ghostwhite{ color:#F8F8FF}
+.color_white{ color:#FFFFFF;
+}
+.background_maroon{ background:#800000}
+.background_darkred{ background:#8B0000 }
+.background_brown{ background:#A52A2A}
+.background_firebrick{ background:#B22222}
+.background_crimson{ background:#DC143C }
+.background_red{ background:#FF0000}
+.background_mediumvioletred{ background:#C71585}
+.background_palevioletred{ background:#D87093}
+.background_deeppink{ background:#FF1493}
+.background_fuchsia{ background:#FF00FF}
+.background_magenta{ background:#FF00FF}
+.background_hotpink{ background:#FF69B4}
+.background_pink{ background:#FFC0CB }
+.background_lightpink{ background:#FFB6C1}
+.background_mistyrose{ background:#FFE4E1}
+.background_lavenderblush{ background:#FFF0F5}
+.background_indigo{ background:#4B0082 }
+.background_purple{ background:#800080}
+.background_darkmagenta{ background:#8B008B}
+.background_darkorchid{ background:#9932CC}
+.background_blueviolet{ background:#8A2BE2}
+.background_darkviolet{ background:#9400D3}
+.background_slateblue{ background:#6A5ACD}
+.background_mediumpurple{ background:#9370DB }
+.background_mediumslateblue{ background:#7B68EE }
+.background_mediumorchid{ background:#BA55D3}
+.background_violet{ background:#EE82EE}
+.background_plum{ background:#DDA0DD }
+.background_thistle{ background:#D8BFD8 }
+.background_lavender{ background:#E6E6FA}
+.background_saddlebrown{ background:#8B4513}
+.background_sienna{ background:#A0522D}
+.background_chocolate{ background:#D2691E}
+.background_indianred{ background:#CD5C5C}
+.background_rosybrown{ background:#BC8F8F }
+.background_lightcorol { background:#F08080 }
+.background_salmon{ background:#FA8072 }
+.background_lightsalmon{ background:#FFA07A}
+.background_orangered{ background:#FF4500 }
+.background_tomato{ background:#FF6347}
+.background_coral{ background:#FF7F50 }
+.background_darkorange{ background:#FF8C00}
+.background_sandybrown{ background:#F4A460}
+.background_peru{ background:#CD853F }
+.background_tan{ background:#D2B48C }
+.background_burlywood{ background:#DEB887}
+.background_wheat{ background:#F5DEB3}
+.background_moccasin{ background:#FFE4B5}
+.background_navajowhite{ background:#FFDEAD}
+.background_peachpuff{ background:#FFDAB9}
+.background_bisque{ background:#FFE4C4}
+.background_antuquewhite{ background:#FAEBD7}
+.background_papayawhip{ background:#FFEFD5}
+.background_backgroundnsilk{ background:#FFF8DC}
+.background_oldlace{ background:#FDF5E6}
+.background_linen{  background:#FAF0E6 }
+.background_seashell{ background:#FFF5EE}
+.background_snow{ background:#FFFAFA}
+.background_floralwhite{ background:#FFFAF0 }
+.background_ivory{ background:#FFFFF0}
+.background_mintcream{ background:#F5FFFA}
+.background_darkgoldenrod{ background:#B8860B}
+.background_goldenrod{ background:#DAA520}
+.background_gold{ background:#FFD700}
+.background_yellow{ background:#FFFF00 }
+.background_darkkhaki{ background:#BDB76B }
+.background_khaki{ background:#F0E68C}
+.background_palegoldenrod{ background:#EEE8AA}
+.background_beige{ background:#F5F5DC }
+.background_lemonchiffon{ background:#FFFACD }
+.background_lightgoldenrodyellow{ background:#FAFAD2 }
+.background_lightyellow{ background:#FFFFE0}
+.background_darkslategray{ background:#2F4F4F}
+.background_darkolivegreen{ background:#556B2F}
+.background_olive{ background:#808000}
+.background_darkgreen{ background:#006400}
+.background_forestgreen{ background:#228B22}
+.background_seagreen{ background:#2E8B57}
+.background_green{ background:#008080 }
+.background_teal{ background:#008080 }
+.background_lightseagreen{ background:#20B2AA}
+.background_madiumaquamarine{ background:#66CDAA }
+.background_mediumseagreen{ background:#3CB371}
+.background_darkseagreen{ background:#8FBC8F}
+.background_yellowgreen{ background:#9ACD32 }
+.background_limegreen{ background:#32CD32}
+.background_lime{ background:#00FF00 }
+.background_chartreuse{ background:#7FFF00}
+.background_lawngreen{ background:#7CFC00}
+.background_greenyellow{ background:#ADFF2F}
+.background_mediumspringgreen{ background:#00FA9A}
+.background_springgreen{ background:#00FF7F}
+.background_lightgreen{ background:#90EE90}
+.background_palegreen{ background:#98F898 }
+.background_aquamarine{ background:#7FFFD4 }
+.background_honeydew{ background:#F0FFF0}
+.background_midnightblue{ background:#191970}
+.background_navy{ background:#000080}
+.background_darkblue{ background:#00008B}
+.background_darkslateblue{ background:#483D8B}
+.background_mediumblue{ background:#0000CD}
+.background_royalblue{ background:#4169E1}
+.background_dodgerblue{ background:#1E90FF}
+.background_backgroundnflowerblue{ background:#6495ED}
+.background_deepskyblue{ background:#00BFFF}
+.background_lightskyblue{ background:#87CEFA}
+.background_lightsteelblue{ background:#B0C4DE}
+.background_lightblue{ background:#ADD8E6}
+.background_steelblue{ background:#4682B4}
+.background_darkcyan{ background:#008B8B}
+.background_cadetblue{ background:#5F9EA0}
+.background_darkturquoise{ background:#00CED1}
+.background_mediumturquoise{ background:#48D1CC}
+.background_turquoise{ background:#40E0D0}
+.background_skyblue{ background:#87CECB}
+.background_powderblue{ background:#B0E0E6}
+.background_paleturquoise{ background:#AFEEEE}
+.background_lightcyan{ background:#E0FFFF }
+.background_azure{ background:#F0FFFF}
+.background_aliceblue{ background:#F0F8FF}
+.background_aqua{ background:#00FFFF}
+.background_cyan{ background:#00FFFF}
+.background_black{ background:#000000}
+.background_dimgray{ background:#696969}
+.background_gray{ background:#808080}
+.background_slategray{ background:#708090 }
+.background_lightslategray{ background:#778899 }
+.background_darkgray{ background:#A9A9A9 }
+.background_silver{ background:#C0C0C0 }
+.background_lightgray{ background:#D3D3D3}
+.background_gainsboro{ background:#DCDCDC}
+.background_whitesmoke{ background:#F5F5F5}
+.background_ghostwhite{ background:#F8F8FF}
+.background_white{ background:#FFFFFF}

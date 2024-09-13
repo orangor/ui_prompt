@@ -1,0 +1,271 @@
+
+
+.resizable-container {
+  position: relative;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.drag-handle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 20px;
+  cursor: move;
+}
+
+//纯粹红
+.text-container1 {
+  @deepRed: #b10303; // 深红
+@goldText: #ffffff; // 金色文字
+@textFont: 'Georgia', 'Times New Roman', Times, serif; // 优雅的字体
+@softShadow: rgba(0, 0, 0, 0.2); // 软阴影
+  background-color: @deepRed; // 单一深红背景
+  color: @goldText; // 金色文字
+  padding: 20px; // 内部填充
+  border-radius: 10px; // 圆角边框
+  box-shadow: 0px 4px 8px @softShadow; // 添加阴影
+  font-family: @textFont; // 使用优雅的字体
+  font-size: 18px; // 字体大小
+  line-height: 1.6; // 行高
+  width: 100%; // 宽度
+  height: calc(100% - 20px); // 高度
+  border: none; // 无边框
+  outline: none; // 无轮廓
+  resize: none; // 不可调整大小
+  overflow: auto; // 自动溢出
+  padding-top: 20px; // 上部填充
+}
+
+
+
+.text-container2 {
+  @darkColor: #2C2C2C; // 深色背景
+@goldColor: #BFA76A; // 金色调
+@textColor: #FAFAFA; // 浅色文字
+@textFont: 'Georgia', serif; // 优雅的字体
+@softShadow: rgba(0, 0, 0, 0.1);
+@deepShadow: rgba(0, 0, 0, 0.2);
+
+  background: @darkColor; // 深色背景
+  color: @textColor; // 浅色文字
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 12px @deepShadow;
+  font-family: @textFont;
+  font-size: 16px;
+  line-height: 1.6;
+  width: 100%;
+  height: calc(100% - 20px);
+  border: none;
+  outline: none;
+  resize: none;
+  overflow: auto;
+  padding-top: 20px;
+  position: relative;
+
+  // 金色细线纹理
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(45deg, @goldColor 25%, transparent 25%, transparent 50%, @goldColor 50%, @goldColor 75%, transparent 75%, transparent);
+    background-size: 4px 4px; // 这里可以调整线的大小
+    opacity: 0.2;
+    pointer-events: none;
+  }
+}
+
+//木纹
+.text-container3 {
+
+
+@woodColor1: #8B4513; // 深木色
+@woodColor2: #A0522D; // 浅木色
+@textColor: #EAEAEA; // 浅色文字颜色
+@textFont: 'Georgia', serif; // 优雅的字体
+@softShadow: rgba(0, 0, 0, 0.1); // 轻微的阴影
+@deepShadow: rgba(0, 0, 0, 0.3); // 更深的阴影
+  background: linear-gradient(110deg, @woodColor1 25%, @woodColor2 25%, @woodColor2 50%, @woodColor1 50%, @woodColor1 75%, @woodColor2 75%, @woodColor2); // 模拟木纹
+  background-size: 40px 40px;
+  color: @textColor; // 浅色文字颜色
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 16px @softShadow;
+  font-family: @textFont;
+  font-size: 18px;
+  line-height: 1.7;
+  width: 100%;
+  height: calc(100% - 20px);
+  border: none;
+  outline: none;
+  resize: none;
+  overflow: auto;
+  padding-top: 25px;
+  position: relative;
+}
+
+
+//羊皮
+.text-container4 {
+  @parchmentColor1: #FAF8F0; // 羊皮纸主色
+@parchmentColor2: #F8F6E9; // 羊皮纸阴影色
+@textColor: #5A5A5A; // 文本颜色
+@textFont: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; // 优雅的字体
+@softShadow: rgba(0, 0, 0, 0.05); // 轻微的阴影
+  background-color: @parchmentColor1;
+  background: radial-gradient(circle at 20px 20px, @parchmentColor2, @parchmentColor1 40px); // 模拟纸的纹理
+  color: @textColor; // 文字颜色
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px @softShadow; // 轻微的阴影
+  font-family: @textFont; // 优雅的字体
+  font-size: 18px;
+  line-height: 1.7;
+  width: 100%;
+  height: calc(100% - 20px);
+  border: none;
+  outline: none;
+  resize: none;
+  overflow: auto;
+  padding-top: 20px;
+}
+
+//炫彩-紫
+.text-container5 {
+  @gradientStart: #FF7EB3; // 渐变起始颜色
+@gradientMid: #8A49A1; // 渐变中间颜色
+@gradientEnd: #42275a; // 渐变结束颜色
+@textColor: #EFEFEF; // 文本颜色，推荐使用亮色，因为背景较暗
+@textFont: 'Futura', 'Trebuchet MS', Arial, sans-serif; // 现代感的字体
+@softShadow: rgba(0, 0, 0, 0.2); // 轻微的阴影
+  background: linear-gradient(45deg, @gradientStart, @gradientMid, @gradientEnd);
+  color: @textColor;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px @softShadow;
+  font-family: @textFont;
+  font-size: 18px;
+  line-height: 1.7;
+  width: 100%;
+  height: calc(100% - 20px);
+  border: none;
+  outline: none;
+  resize: none;
+  overflow: auto;
+  padding-top: 20px;
+}
+
+
+//红渐变
+.text-container6 {
+  @gradientStart: #FF416C; // 渐变起始颜色，深红色
+@gradientMid1: #FF4B2B; // 渐变中间颜色1，橙红色
+@gradientMid2: #FF6B6B; // 渐变中间颜色2，较浅的红色
+@gradientEnd: #FFC3A0; // 渐变结束颜色，浅粉色
+@textColor: #FFFFFF; // 文本颜色，白色在红色背景下通常看起来很清晰
+@textFont: 'Futura', 'Trebuchet MS', Arial, sans-serif; // 现代感的字体
+@softShadow: rgba(0, 0, 0, 0.2); // 轻微的阴影
+  background: linear-gradient(45deg, @gradientStart, @gradientMid1, @gradientMid2, @gradientEnd);
+  color: @textColor;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px @softShadow;
+  font-family: @textFont;
+  font-size: 18px;
+  line-height: 1.7;
+  width: 100%;
+  height: calc(100% - 20px);
+  border: none;
+  outline: none;
+  resize: none;
+  overflow: auto;
+  padding-top: 20px;
+}
+
+//彩虹
+.text-container7 {
+  @gradientRed: #FF0000; // 红
+@gradientOrange: #FF7F00; // 橙
+@gradientYellow: #FFFF00; // 黄
+@gradientGreen: #00FF00; // 绿
+@gradientCyan: #00FFFF; // 青
+@gradientBlue: #0000FF; // 蓝
+@gradientPurple: #8B00FF; // 紫
+@textColor: #FFFFFF; // 白色文本颜色
+@textFont: 'Futura', 'Trebuchet MS', Arial, sans-serif; // 使用优雅且现代的字体
+@softShadow: rgba(0, 0, 0, 0.1); // 轻微的阴影
+  background: linear-gradient(45deg, @gradientRed, @gradientOrange, @gradientYellow, @gradientGreen, @gradientCyan, @gradientBlue, @gradientPurple);
+  color: @textColor;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px @softShadow;
+  font-family: @textFont;
+  font-size: 18px;
+  line-height: 1.7;
+  width: 100%;
+  height: calc(100% - 20px);
+  border: none;
+  outline: none;
+  resize: none;
+  overflow: auto;
+  padding-top: 20px;
+}
+
+//渐变红
+.text-container8 {
+  @deepRed: #8B0000; // 深红
+@wineRed: #722f37; // 酒红
+@roseGold: #B76E79; // 玫瑰金
+@gold: #FFD700; // 金色
+@pearl: #FDEE00; // 珠光黄
+@textColor: #FAFAFA; // 淡灰白色文字颜色
+@textFont: 'Georgia', 'Times New Roman', Times, serif; // 使用Georgia字体，或者其他有衬线的优雅字体
+@softShadow: rgba(0, 0, 0, 0.2); // 适度的阴影
+  background: linear-gradient(135deg, @deepRed, @wineRed, @roseGold, @gold, @pearl);
+  color: @textColor;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 10px @softShadow;
+  font-family: @textFont;
+  font-size: 20px;
+  line-height: 1.8;
+  width: 100%;
+  height: calc(100% - 20px);
+  border: none;
+  outline: none;
+  resize: none;
+  overflow: auto;
+  padding-top: 20px;
+}
+.text-container9 {
+  @backgroundStart: #F9F9F9;  // 亮灰色
+  @backgroundEnd: #E5E5E5;    // 淡灰色
+  @textColor: #333;           // 深灰色文字颜色
+  @highlightColor: #666;     // 高亮文字颜色
+  @textFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; // 苹果默认字体和备选字体
+  @softShadow: rgba(0, 0, 0, 0.1); // 微妙的阴影
+
+  background: linear-gradient(135deg, @backgroundStart, @backgroundEnd);
+  color: @textColor;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px @softShadow;
+  font-family: @textFont;
+  font-size: 18px;
+  line-height: 1.7;
+  text-align: left;           // 左对齐
+  width: 100%;
+  height: calc(100% - 20px);
+  border: none;
+  outline: none;
+  resize: none;
+  overflow: auto;
+
+
+ 
+}

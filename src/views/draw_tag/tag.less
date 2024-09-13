@@ -1,0 +1,131 @@
+.selectmom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    height: 100%;
+    background: #e0e5ec;
+    padding: 10px;
+    overflow: auto;
+  
+    .left-box {
+      margin-bottom: 20px;
+      width: 100%;
+      box-shadow: 0 4px 3px 1px #fcfcfc, 0 6px 2px #d6d7d9, 0 -4px 2px #cecfd1, 0 -4px 2px #fefefe, inset 0 0 1px 0 #cecfd1;
+  
+      .ant-input-group-addon {
+        width: 0px !important;
+        height: 0px !important;
+        background: chartreuse;
+      }
+  
+      overflow: scroll;
+  
+      .ant-table {
+        .ant-checkbox-wrapper,
+        .ant-radio-wrapper {
+          color: #1B8BF8;
+        }
+  
+        .ant-table-row-selected td {
+          background: rgba(27, 139, 248, 0.10) !important;
+        }
+  
+        .ant-table-tbody {
+          tr > td {
+            max-width: 300px;
+  
+            div {
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  
+    .left-box::-webkit-scrollbar {
+      display: none;
+    }
+  
+    .option_tag,
+    .check_tag {
+      background: #e0e5ec;
+      margin-bottom: 20px;
+      border: 1px #e0e5ec solid;
+      color: black;
+      overflow-x: hidden;
+      overflow-y: auto;
+      white-space: normal;
+      word-break: break-word;
+    }
+  
+    .option_tag {
+      flex-grow: 1;
+      margin-right: 10px;
+      min-height: 200px;
+  
+      .custom-ant-select {
+        .ant-select-selector {
+          min-height: 32px !important;
+          max-height: 32px !important;
+        }
+  
+        .ant-select-selection-overflow-item {
+          line-height: 32px !important;
+        }
+  
+        .ant-select-selection-overflow {
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          display: inline-block;
+          max-width: 100%;
+        }
+      }
+    }
+  
+  
+    .check_tag {
+      width: 100%;
+      min-height: 200px;
+      max-height: 200px;
+      // 使用简单的背景和圆角来增加一些深度和结构
+      background-color: #f7f7f9;
+      border-radius: 12px;
+      padding: 12px 20px;
+    
+      // 选择一个舒适的字体和大小
+      font-family: 'San Francisco', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+      font-size: 14px;
+      color: #333;
+    
+
+    
+      // 为"点击复制"提示添加一个不同的样式，使其脱颖而出
+      & > span:last-child {
+        background-color: #007aff;
+        color: #fff;
+        padding: 4px 8px;
+        border-radius: 6px;
+        font-weight: 500;
+    
+        &:hover {
+          background-color: #005ecb;
+        }
+      }
+    }
+    
+  }
+  
+  // 在小屏幕设备上使用 flex 布局
+  @media screen and (max-width: 768px) {
+    .selectmom {
+      .option_tag,
+      .check_tag {
+        width: 100%;
+      }
+    }
+  }
+ 

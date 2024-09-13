@@ -1,0 +1,39 @@
+.nice0{
+    /* 关键样式 */
+	background: linear-gradient(#fb3 50%, #58a 0);
+    background-size: 100% 30px;
+}
+.nice1{
+    background: linear-gradient(to right, #fb3 50%, #58a 0);
+    background-size: 30px 100%;
+}
+.nice2{
+    background: linear-gradient(45deg, 
+              #fb3 25%, #58a 0, #58a 50%,
+              #fb3 0, #fb3 75%, #58a 0);
+    background-size: 42.4px 42.4px;
+}
+.nice3{
+     background: #58a;
+    background-image: linear-gradient(white 2px, transparent 0),
+                    linear-gradient(90deg, white 2px, transparent 0),
+                    linear-gradient(hsla(0,0%,100%,.3) 1px, transparent 0),
+                    linear-gradient(90deg, hsla(0,0%,100%,.3) 1px, transparent 0);
+    background-size: 50px 50px, 50px 50px,
+                    10px 10px, 10px 10px;
+}
+.nice4{
+       background: #655;
+    background-image: radial-gradient(tan 20%, transparent 0),
+                      radial-gradient(tan 20%, transparent 0);
+    background-size: 30px 30px;
+    background-position: 0 0, 15px 15px;
+}
+.nice5{
+      background: hsl(20, 40%, 90%);
+    background-image: 
+    	linear-gradient(90deg, #fb3 11px, transparent 0),
+    	linear-gradient(90deg, #ab4 23px, transparent 0),
+    	linear-gradient(90deg, #655 23px, transparent 0);
+    background-size: 83px 100%, 61px 100%, 41px 100%;
+}

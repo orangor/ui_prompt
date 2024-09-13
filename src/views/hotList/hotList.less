@@ -1,0 +1,120 @@
+
+
+// 基础变量
+@base-font-family: 'San Francisco', 'Helvetica Neue', Arial, sans-serif;
+@base-font-size: 16px;
+@primary-color: #007AFF;  // 蓝色调
+@background-color: #FAFAFA; // 轻微灰色背景
+@border-color: #E0E0E0;
+@text-color: #333; // 深灰色文字
+
+.hotlist-container {
+    font-family: @base-font-family;
+    font-size: @base-font-size;
+    background-color: @background-color;
+    padding: 20px;
+    color: @text-color;
+
+    // 移动设备适配
+    @media (max-width: 767px) {
+        padding: 10px;
+    }
+
+    > div {
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        label {
+            font-weight: bold;
+            margin-right: 10px;
+            display: inline-block;
+            min-width: 100px;
+        }
+
+        .input-group {
+            display: flex;
+            flex: 1;
+            margin-bottom: 10px;
+            align-items: center;
+
+            @media (min-width: 768px) { // PC 端默认是两个操作项
+                max-width: 48%;
+            }
+            .full-width-date-picker {
+                position: relative;
+            }
+            
+            .full-width-date-picker::-webkit-calendar-picker-indicator {
+                background: transparent;
+                bottom: 0;
+                color: transparent;
+                cursor: pointer;
+                height: 100%;
+                left: 0;
+                right: 0;
+                top: 0;
+                width: 100%;
+                position: absolute; 
+                z-index: 1; 
+            }
+        }
+
+        input[type='text'],
+        input[type='number'],
+        select {
+            padding: 10px;
+            border: 1px solid @border-color;
+            border-radius: 5px;
+            flex-grow: 1;
+
+            &:focus {
+                outline: none;
+                border-color: @primary-color;
+            }
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: @primary-color;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            display: block;  // 让按钮成为块级元素
+            margin: 20px auto; // 居中按钮
+            width: 200px;
+            &:hover {
+                background-color: darken(@primary-color, 10%);
+            }
+        }
+        .query-button-container {
+          width: 100%; // 按钮占据全宽，确保它在自己的行上
+          text-align: center;
+          
+          margin-top: 20px;
+      }
+
+    }
+
+
+    .hotlist-item {
+       width: 100%;
+        border: 1px solid #e1e1e1;
+        border-radius: 5px;
+
+        &.highlighted {
+            background-color: #e1e1e1;
+        }
+    }
+
+    input, select {
+     
+        padding: 5px;
+        border: 1px solid #e1e1e1;
+        border-radius: 3px;
+    }
+}
+

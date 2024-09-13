@@ -1,0 +1,1 @@
+export function fech(url: string, data: any, type: string, method: string): any;

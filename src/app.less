@@ -1,0 +1,152 @@
+@blue: #4285f4;
+@light-gray: #f1f1f1;
+.btn-17 {
+  border: none;
+  color: #000 !important;
+  }
+  .btn-17:hover {
+    color: #f0094a !important;
+    background: transparent;
+     box-shadow:none;
+  }
+  .btn-17:before,
+  .btn-17:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #f0094a ;
+    color: #f0094a;
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+  }
+  .btn-17:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .btn-17:hover:before,
+  .btn-17:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  .custom-btn {
+   // width: 130px;
+   // height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+
+.heade {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 25px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+
+  span {
+    height: 3px;
+    width: 100%;
+    background: @blue;
+    display: block;
+  }
+}
+
+.nav-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tag {
+  position: relative;
+  margin: 10px;
+}
+
+.cell-list {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  min-width: 160px;
+  z-index: 100;
+}
+
+.isTouchBar ~ .cell-list {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .heade {
+    position: relative;
+    width: 100%;
+  }
+
+  .menu-toggle {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 200;
+    background: #e0e5ec;
+  }
+
+  .nav-container {
+    display: none;
+    //flex-direction: column;
+   // position: absolute;
+    top: 45px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .nav-container.open {
+    display: flex;
+    display: flex;
+    justify-content: center;
+   align-items: center;  
+z-index: 100;
+background: #e0e5ec;
+  }
+
+  .tag {
+    float: left;
+    border: 0.1px white solid !important;
+   margin: 0px;
+    
+  }
+
+  .cell-list {
+    position: static;
+   
+  }
+}
